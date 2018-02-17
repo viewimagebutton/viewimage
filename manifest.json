@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Google View Image Button",
+  "description": "Adds the view image button back to Google image search.",
+  "version": "0.0.0.1",
+  "author": "whocares",
+
+  "permissions": [
+    "https://www.google.com/",
+    "tabs"
+  ],
+  
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png" },
+
+   "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*", "https://www.google.com/*"],
+      "js": ["jquery-1.9.0.js","viewimage.js"],
+      "run_at": "document_idle"
+    }
+  ]
+
+}
+
