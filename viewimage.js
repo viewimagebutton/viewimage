@@ -42,7 +42,7 @@ $(document).ready(function () {
 
 				var tds = $(elm).find("td");
 
-				if (tds.length > 2) {
+				if (tds.length >= 2) {
 					viewImageElm = $(elm).find("#viewimage");
 
 					if (viewImageElm.length == 0) {
