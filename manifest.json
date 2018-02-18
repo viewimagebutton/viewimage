@@ -20,7 +20,6 @@
     {
       "matches": [
         "*://*.google.com/*",
-        "*://*.google.com.sa/*",
         "*://*.google.com/*",
         "*://*.google.ac/*",
         "*://*.google.ad/*",
